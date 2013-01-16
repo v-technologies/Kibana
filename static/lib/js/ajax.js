@@ -879,8 +879,8 @@ function CreateLogTable(objArray, fields, theme, enableHeader) {
 	      return "<span class='highlightedtext'>" + text + "</span>";
 	    }
 	);
-      str += '<td class="column" data-field="'+field+'">' +
-        value + '</td>';
+      str += '<td class="column" data-field="'+field+'"><div>' +
+        value + '</div></td>';
     }
     str += '</tr><tr class="hidedetails"></tr>';
     hlfield = undefined;
